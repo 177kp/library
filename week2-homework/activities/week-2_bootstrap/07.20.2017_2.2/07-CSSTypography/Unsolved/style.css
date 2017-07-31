@@ -1,0 +1,26 @@
+* {
+
+	margin: 0;
+}
+
+body {
+
+	
+}
+p {
+	font-family: Lucida Sans Unicode;
+}
+
+
+.bold {
+	font-weigt: bold;
+}
+
+.largeFont {
+	font-size: 24px;
+
+}
+
+.lineHeight {
+	line-height: 50px;
+}

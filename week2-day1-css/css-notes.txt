@@ -1,0 +1,18 @@
+*Consider using these online flashcards to memorize the terminal commands we went over yesterday:*
+https://quizlet.com/_3klosk
+
+These are just the core terminal commands, but there are many more commands, and each command has many configuration options. Feel free to add/remove/customize this flashcard set.
+
+Whenever you encounter new terms in the future, write them down and consider creating a flashcard set to learn them. Be sure to share any flashcards you create with the class!
+Quizlet
+Terminal Commands
+21 terms · pwd http://www.linfo.org/pwd.html → print working directory (the d…, ls https://www.computerhope.com/unix/uls.htm → lists files and folders, ls -al https://www.computerhope.com/unix/uls.htm → list files and folders, & incl…
+ 
+(edited)
+
+https://stackoverflow.com/questions/83073/why-not-use-tables-for-layout-in-html
+stackoverflow.com
+Why not use tables for layout in HTML?
+It seems to be the general opinion that tables should not be used for layout in HTML. Why? I have never (or rarely to be honest) seen good arguments for this. The usual answers are: It's good to
+
+Useful CSS: When referencing a stylesheet inside your href tag, if the style.css is located in the folder directly before the folder containing your HTML file, use href="../style.css"  ../ means a step back rather than having to list the entire location via URL..

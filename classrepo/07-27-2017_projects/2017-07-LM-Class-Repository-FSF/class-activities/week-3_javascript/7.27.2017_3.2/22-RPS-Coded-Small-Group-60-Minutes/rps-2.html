@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Rock Paper Scissors Part 2
+  </title>
+</head>
+
+<body>
+    <div id="game">
+    </div>
+    <script type="text/javascript">
+    // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
+    var computerChoices = ["r", "p", "s"];
+
+   // This function is run whenever the user presses a key.
+    document.onkeyup = function(event) {
+
+       // Determines which key was pressed.
+        var userGuess = event.key;
+        if (userGuess === "r" || userGuess === "s" || userGuess === "p") { alert("stuff") }
+
+
+       // Randomly chooses a choice from the options array. This is the Computer's guess.
+        var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+
+       // Alerts the key the user pressed (userGuess).
+        alert("User guess: " + userGuess);
+
+       // Alerts the Computer's guess.
+        alert("Computer guess: " + computerGuess);
+
+   };
+
+   // Let's start by grabbing a reference to the <span> below.
+
+
+   var userGuess = document.getElementById("User guess");
+    var wins = 0;
+    // Next, we give JavaScript a function to execute when onkeyup event fires.
+    document.onkeyup = function(event) {
+
+       userGuess = event.key;
+        if (userGuess=== "r" || userGuess === "s" || userGuess === "p") {
+            wins++;
+        }
+        console.log("Wins: " + wins);
+    };
+    </script>
+</body>
+
+</html>

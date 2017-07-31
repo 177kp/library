@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<div class="container">
+<h1>Javascript Variables</h1>
+	
+	<script type="text/Javascript">
+	var dwarfName = prompt("What's your name?");
+	  var confirmDwarfs = confirm("Do you like Dwarfs?");
+
+	  var petName = "Meeses";
+      var petType = "Tuxedo Cat";
+		var dwarfCount = 7;
+		var isSleeping = true;
+
+	if (dwarfCount) {
+        alert(dwarfName + " " + dwarfType + " " + dwarfAge);
+      }
+      else {
+        alert("You don't get my cat's information");
+      }
+
+      if (isSleeping) {
+        alert("My dwarf is a cat");
+      }
+      else {
+        alert("My dwarf is not a cat");
+      }
+
+      if (dwarfAge !== 7) {
+        alert("My dwarf is not 7 years old");
+      }
+
+      if (dwarfAge === 5) {
+        alert("My dwarf is 5 years old");
+      }
+      else if (dwarfAge < 5) {
+        alert("My dwarf is less than 5 years old");
+      }
+      else if (dwarfAge > 5) {
+        alert("My dwarf is older than 5 years old");
+      }
+
+      // document.write() overwrites the entire page. We don't normally use this, but we will today for simplicity
+      document.write("Welcome to our page " + dwarfName);
+
+      var dwarfAge = prompt("How old is your cat?");
+
+      // Won't work as expected
+      alert(dwarfAge + 2);
+
+      // Works as expected
+      alert(parseInt(dwarfAge) + 2);
+	</script>
+
+</body>
+</html>

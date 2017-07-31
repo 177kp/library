@@ -1,0 +1,67 @@
+Javascript basic variables:
+
+Strings have = "The Strings";
+Numbers have = 7;
+Booleans have = true/false;
+
+Confirm: True or False, Yes or No, Ok or Cancel
+Prompt: Write text strint or number answer and store to the reference
+
+Confirm/Prompt/Alert: Boolean
+Confirm/Prompt/Alert: Strings & Numbers
+
+Example from scratch:
+var rainNow = confirm("Is it raining now?")
+var weatherLike = prompt("What's the weather like, over by your house?")
+
+    alert("Hello, my name is " + name )
+    alert("Is your Home Town a Big City" + isABigCity);
+
+      console.log("Hello, my name is " + name );
+      console.log("Is your Home Town a Big City" + isABigCity);
+      console.log("age , homeTown, isABigCity");
+      // console.log(age, homeTown, isABigCity); //
+
+
+
+
+Example from class notes: 
+
+Var name = "Snow White";
+var dwarfCount = 7;
+var isSleeping = true;
+
+
+
+Full working prompt/alerts/confirms example(s):
+    <script type="text/javascript">
+
+    alert("Let's talk about Sushi for a minute. . .");
+
+    // Notice that the confirm and prompt take in variables but the alert doesn't
+    var doYouEatSushi = confirm("Do you like Sushi?");
+    var whatTypeSushi = prompt("What type of Sushi do you like ?");
+
+    // Alert the results
+    alert(doYouEatSushi); 
+    alert(whatTypeSushi);
+
+    if     	(doYouEatSushi) {
+
+    	alert ("Awesomesauce  " +  whatTypeSushi);    
+    }
+    else {
+    	alert ("Have another look at the menu.");
+    }
+    // Write code here!
+
+    </script>
+
+
+DOM is Document Object Model:
+
+<script type="text/javascript">
+
+document.write("We're the greatest coders on earth.");
+
+</script>

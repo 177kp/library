@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors Part 2
+    </title>
+</head>
+<body><!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rock Paper Scissors Pseudocode</title>
+ <!--        <link rel="stylesheet" href="bootstrap.css"> -->
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="text-center"><strong>Rock Paper Scissors Pseudocode</strong></h1>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+<!--                     <div class="panel panel-default">
+                      <div class="panel-body"> -->
+                         <div id="game"></div>
+          <!--                 <h3>Let's play a game of Rock Paper Scissors</h3>
+
+                                      <h4>Scoreboard</h4>
+                                      <p>Your Wins:<span id="wins"> </span></p>
+                                      <p>Your Losses:<span id="losses"> </span></p>
+                                      <p>Your Ties:<span id="ties"> </span></p>
+<!--                                       <p>Computer Score:<span id="computerGuess"> </span></p> -->
+                                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div> -->
+
+
+<script type="text/javascript">
+    // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
+    var computerChoices = ["r", "p", "s"];
+
+    // Creating variables to hold the number of wins, losses, and ties. They start at 0.
+    var wins = 0;
+    var losses = 0;
+    var ties = 0;
+
+    // This function is run whenever the user presses a key.
+    document.onkeyup = function(event) {
+
+      // Determines which key was pressed.
+      var userGuess = event.key;
+
+      // Randomly chooses a choice from the options array. This is the Computer's guess.
+      var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+
+      // Reworked our code from last step to use "else if" instead of lots of if statements.
+
+      // This logic determines the outcome of the game (win/loss/tie), and increments the appropriate number
+      if ((userGuess === "r") || (userGuess === "p") || (userGuess === "s")) {
+
+        if ((userGuess === "r") && (computerGuess === "s")) {
+          wins++;
+        } else if ((userGuess === "r") && (computerGuess === "p")) {
+          losses++;
+        } else if ((userGuess === "s") && (computerGuess === "r")) {
+          losses++;
+        } else if ((userGuess === "s") && (computerGuess === "p")) {
+          wins++;
+        } else if ((userGuess === "p") && (computerGuess === "r")) {
+          wins++;
+        } else if ((userGuess === "p") && (computerGuess === "s")) {
+          losses++;
+        } else if (userGuess === computerGuess) {
+          ties++;
+        }
+
+        // Creating a variable to hold our new HTML. Our HTML now keeps track of the user and computer guesses, and wins/losses/ties.
+        var html =
+          "<p>You chose: " + userGuess + "</p>" +
+          "<p>The computer chose: " + computerGuess + "</p>" +
+          "<p>wins: " + wins + "</p>" +
+          "<p>losses: " + losses + "</p>" +
+          "<p>ties: " + ties + "</p>";
+
+        // Set the inner HTML contents of the #game div to our html string
+        document.querySelector("#game").innerHTML = html;
+      }
+    };
+  </script>
+ 
+
+<!-- <script type="text/javascript">
+    // Whenever a key is pressed, alert "pressed a button".
+    document.onkeyup = function() {
+      alert("pressed a button");
+    };
+  </script>
+  
+    <script type="text/javascript">
+
+    // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
+    var computerChoices = ["r", "p", "s"];
+
+    // This function is run whenever the user presses a key.
+    document.onkeyup = function(event) {
+
+      // Determines which key was pressed.
+      var userGuess = event.key;
+
+      // Randomly chooses a choice from the options array. This is the Computer's guess.
+      var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+
+      // Alerts the key the user pressed (userGuess).
+      alert("User guess: " + userGuess);
+
+      // Alerts the Computer's guess.
+      alert("Computer guess: " + computerGuess);
+
+    };
+  </script>
+
+   
+    <script type="text/javascript">
+    // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
+    var computerChoices = ["r", "p", "s"];
+    // This function is run whenever the user presses a key.
+    document.onkeyup = function(event) {
+        // Determines which key was pressed.
+        // var userGuess = event.key;
+        // if (userGuess === "r" || userGuess === "s" || userGuess === "p") { alert("stuff") }
+        // Randomly chooses a choice from the options array. This is the Computer's guess.
+        var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+        // Alerts the key the user pressed (userGuess).
+        alert("User guess: " + userGuess);
+        // Alerts the Computer's guess.
+        alert("Computer guess: " + computerGuess);
+    };
+    // Let's start by grabbing a reference to the <span> below.
+    var userGuess = document.getElementById("User guess");
+    var wins = 0;
+    // Next, we give JavaScript a function to execute when onkeyup event fires.
+    document.onkeyup = function(event) {
+        userGuess = event.key;
+        if (userGuess=== "r" || userGuess === "s" || userGuess === "p") {
+            wins++;
+        }
+        console.log("Wins: " + wins);
+    };
+    </script> -->
+</body>
+</html>
+

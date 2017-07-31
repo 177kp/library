@@ -1,0 +1,64 @@
+GitHub how to run it like a boss
+
+Three rules to add local files to github repositories
+
+Add 
+Commit 
+Push
+
+Basic terminal language which is necessary for this exercise:
+cd - change directory
+ls - list contents of directoy
+cd .. - go back one
+touch filename.extension - create file
+rm -rf filename/folder - delete files and folders
+explorer filename - use explorer to open files and programs
+
+Git Command Language 
+git add -A  | Add Folder to the repo
+git commit -m "message to team mates about whats been changed"
+git push origin master (origin master on first time)
+
+
+
+
+Step-by-step Github synchronization with a folder on your local machine!
+Create repo on Github
+List of Clicks:
+1: "Clone or Download GREEN BUTTON"
+2: "Copy link"
+
+Run command in GitBash
+git add -A 
+git commit -m "initial commit notes, future update notes go here for the team"
+git push or git push origin master
+Create local folder which you will host your code
+
+
+
+Folder locally
+Git Init
+Git remote add nameofrepo url
+Git add -A
+Git commit -m "initial commit"
+Git push origin master
+
+error pulling?  
+run cmd: git checkout -- * 
+or try: git checkout -- filename.extension
+(file is added back to the local repo, and new pull allowed.)
+
+
+
+Dont check box with readme
+
+
+
+Total User Repository Page
+
+Step 1: pages.github.com
+Step 2: github.com create repository
+Step 3: github repository visit settings Select Master Branch
+Step 4: 
+
+or Project Page

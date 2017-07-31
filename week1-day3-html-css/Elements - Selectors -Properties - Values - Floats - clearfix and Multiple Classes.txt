@@ -1,0 +1,118 @@
+Elements - Images, Content, Paragraphs, etc
+Classes - in quotes, to assign names to the content for CSS (within CSS reference with)
+For examples CSS:
+ .classname { 
+
+ 	font-size: 8pt;
+
+}
+
+.secondclass { 
+
+	}
+
+
+
+Elements require no . before the Selector (for example: body, header, footer, div, p, standard HTML, not CLASSES)
+Classes requires a . before their Selector (for example: .container, or .image1)
+<open tags> in CSS it's { 
+<closing tags> in CSS it's }
+
+Proper CSS statements include the following:
+Selector (what are we working with, text, links? For example a (anchor)
+Property(what are you changing: background-color:, or )
+Value (color, size, position) - <End close tag>
+
+HREF = Hypertext Reference
+
+[Margin] [Border] [Padding] [CONTENT] [Margin] [Border] [Padding]
+
+Margin | PX
+Border | 
+Padding | PX
+
+Padding, or Border, or Margin
+
+Use one, alter all around
+Use four for Top, Right, Bottom, Left
+Use two for first is Top/Bottom, second is Left/Right
+
+Example: four, Top Right Bottom Left
+
+Body {
+	padding: 0px 10px 15px 20px;
+	margin: 0px 20px 0px 20px ;
+	line-height: 150%;
+}
+
+Example: one, All Around
+
+Body {
+	padding: 20px;
+	margin: 20px;
+	line-height: 150%;
+}
+
+Example: two, Left Value is Top/Bottom; Right Value is Left/Right
+
+Body {
+	padding: 15px 20px
+	margin: 20px 20px;
+	line-height: 150%;
+}
+
+
+Image or element placements:
+Float: left;  (left of the container/content)
+Float: right; (right of the container/content)
+Float is a property and value would be the placements.
+
+selector 
+
+.CLASS {opened 
+
+/** property examples /**
+
+width: 1024px;
+font-size: 24px;
+background-color: #eee;
+
+closed}
+
+# is for ID
+. is for Class
+
+<div class="clearfix">
+
+Clearfix is to stop floating elements
+.clearfix :: after {
+	content: "";
+	display: "block";
+	block:
+}
+
+SOURCE:
+https://css-tricks.com/all-about-floats/
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+Using two classes, to adjust style within values using CSS
+Within one parent DIV, we may assign separate values to multiple figures, in the below example by adjusting properties and values for each selector, and calling them in side-by-side with no comma.
+
+Example code, of using two classes within one div, with separate styles assigned to each figure (figure in this example is just an element, like an image...)
+<body>
+<div class="box-set">
+<figure class="box box-1">Box 1</figure>
+<figure class="box box-2">Box 2</figure>
+<figure class="box box-3">Box 3</figure>
+<figure class="box box-4">Box 4</figure>
+</div>
+</body>
+
+</html>
+

@@ -1,0 +1,75 @@
+body {
+	width: 100%;
+
+}
+
+h1 {
+     margin-left: auto;
+	 margin-right: auto;
+
+
+}
+
+.topleft {
+	position: fixed;
+	float: left;
+	clear: both;
+	overflow: auto;
+	clear: both;
+}
+
+.content {
+	
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	width: 60%;
+
+}
+
+.p1 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	clear: both;
+	overflow: auto;
+	
+
+}
+
+.p2 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	padding-bottom: 30px;
+	clear: both;
+	
+
+}
+
+.b1 {
+	background-color: #eee;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	padding: 25px 25px 25px 25px ;
+	width: 100%;
+	clear: both;
+
+} 
+
+.b2 {
+	background-color: #999;
+	position: absolute;
+	/*float: left ;*/
+	bottom: 0px;
+	right: 0px;
+	padding: 15px 15px 15px 30px ;
+	width: 33.3%;
+	clear: both;
+	overflow: auto;
+
+
+}
