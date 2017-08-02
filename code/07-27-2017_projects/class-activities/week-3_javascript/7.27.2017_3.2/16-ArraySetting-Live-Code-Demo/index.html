@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+</head>
+
+<title>Javascript template</title>
+<body>
+  <div class="container">
+  <h1>Javascript Promts, Confirms, and document.writes.</h1>
+  </div>
+<div align="center">
+	<script>
+	document.write(favoriteWebsites[0]);
+	document.write(favoriteWebsites[1]);
+	document.write(favoriteWebsites[2]);
+
+	document.write(bestCode[0].toLowerCase());
+	document.write(bestCode[1].toUpperCase());
+	document.write(bestCode[2]);
+	</script>
+</div>  
+<script>
+//getting started
+	var favoriteWebsites = ["StackOverflow", "Google", "Godaddy"];
+
+alert("Hey, let's talk about, code.. and Sources. . ");
+//
+
+	var yourFavorite = prompt("What are your favorite websites?");
+
+	if (yourFavorite = favoriteWebsites) {
+		alert("Congratulations");
+		confirm("Are these your favorite websites?" + yourFavorite " nice we heard of a few ourselves, check them out" + favoriteWebsites);
+}
+
+else if (yourFavorite = true) {
+		alert("Other than " + yourFavorite + " some of our favorite websites like " + favoriteWebsites);
+		alert("Congratulations");
+}
+else {
+		alert("Congratulations");
+}
+
+
+</script>
+
+<script type="text/javascript">
+var bestCode = ["Wordpress", "cPanel", "mySql"]
+alert(bestCode);
+
+var yourCode = prompt("What's the best code you are most friendly with? ")
+
+if (yourCode) {
+	alert("Congratulations");
+	confirm("Do you find your code in some of these sources?" + yourFavorite + favoriteWebsites + " let's talk about your interests or experience in " + yourCode);
+}
+else if (yourCode = [0,1,2]) {
+	prompt("Other than " + yourFavorite + " some of our favorite websites like " + favoriteWebsites);
+	alert("Congratulations");
+}
+else {
+	alert("Congratulations");
+}
+
+</script>
+</body>
+
+
+</html>

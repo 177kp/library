@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Steak Prompt - Solved</title>
+  </head>
+  <body>
+  <div class="container">
+
+  <h1>Javascript Promts, Confirms, and Alerts.</h1>
+  </div>
+
+    <script type="text/javascript">
+
+    alert("Let's talk about Steak for a minute. . .");
+
+    // Notice that the confirm and prompt take in variables but the alert doesn't
+    var doYouEatSteak = confirm("Do you like Steak?");
+    var whatTypeSteak = prompt("How do you like your steak prepared?");
+    var birthYear = prompt("What year were you born? Alcohol is for 21+ customers")
+
+    // Alert the results
+    alert(doYouEatSteak); 
+    alert(whatTypeSteak);
+    alert(birthYear);
+
+    if     	(doYouEatSteak) {
+
+    	alert ("Here’s a Steak Sandwich! " +  whatTypeSteak);    
+    }
+    else {
+    	alert ("Here’s a Tofu Stir-Fry!");
+    }
+
+    if      (birthYear < 1996) {
+
+      alert ("Here’s a free sake bomb on the house " +  birthYear);    
+    }
+    else {
+      document.write("No sake for you! ");
+    }
+
+
+
+    // Write code here!
+
+    </script>
+
+  </body>
+</html>
