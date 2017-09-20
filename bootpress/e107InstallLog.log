@@ -1,0 +1,248 @@
+1505610797, 17-09-17 01:13:17  Stage 1 started
+1505610797, 17-09-17 01:13:17  Stage 1 completed
+1505675207, 17-09-17 19:06:47  Stage 2 started
+1505675207, 17-09-17 19:06:47  Stage 2 completed
+1505675231, 17-09-17 19:07:11  Stage 3 started
+1505675231, 17-09-17 19:07:11  Stage 3 completed
+1505675234, 17-09-17 19:07:14  Stage 2 started
+1505675234, 17-09-17 19:07:14  Stage 2 completed
+1505675243, 17-09-17 19:07:23  Stage 3 started
+1505675243, 17-09-17 19:07:23  Stage 3 completed
+1505675246, 17-09-17 19:07:26  Stage 2 started
+1505675246, 17-09-17 19:07:26  Stage 2 completed
+1505675565, 17-09-17 19:12:45  Stage 3 started
+1505675565, 17-09-17 19:12:45  Stage 3 completed
+1505675567, 17-09-17 19:12:47  Stage 4 started
+1505675567, 17-09-17 19:12:47  Stage 4 completed
+1505675569, 17-09-17 19:12:49  Stage 5 started
+1505675569, 17-09-17 19:12:49  Stage 5 completed
+1505675598, 17-09-17 19:13:18  Stage 4 started
+1505675598, 17-09-17 19:13:18  Stage 4 completed
+1505675600, 17-09-17 19:13:20  Stage 5 started
+1505675600, 17-09-17 19:13:20  Stage 5 completed
+1505675613, 17-09-17 19:13:33  Stage 6 started
+1505675613, 17-09-17 19:13:33  Stage 5 started
+1505675613, 17-09-17 19:13:33  Stage 5 completed
+1505675624, 17-09-17 19:13:44  Stage 6 started
+1505675625, 17-09-17 19:13:45  Stage 6 completed
+1505675634, 17-09-17 19:13:54  Stage 7 started
+1505675634, 17-09-17 19:13:54  Config file written successfully
+1505675634, 17-09-17 19:13:54  Stage 7 completed
+1505675636, 17-09-17 19:13:56  Stage 8 started
+1505675637, 17-09-17 19:13:57  Tables created successfully
+1505675637, 17-09-17 19:13:57  Starting configuration import
+1505675638, 17-09-17 19:13:58  Attempting to Write Core Prefs.
+1505675638, 17-09-17 19:13:58  Array
+(
+    [success] => Array
+        (
+            [0] => core_media_cat
+            [1] => core_media_cat
+            [2] => core_media_cat
+            [3] => core_media_cat
+            [4] => core_media_cat
+            [5] => core_media_cat
+            [6] => core_media_cat
+            [7] => core_media_cat
+            [8] => core_media_cat
+            [9] => core_media_cat
+            [10] => core_media_cat
+            [11] => core_media_cat
+            [12] => core_media_cat
+            [13] => generic
+            [14] => links
+            [15] => links
+            [16] => links
+            [17] => links
+            [18] => links
+            [19] => links
+            [20] => links
+            [21] => links
+            [22] => links
+            [23] => menus
+            [24] => menus
+            [25] => menus
+            [26] => menus
+            [27] => menus
+            [28] => menus
+            [29] => menus
+            [30] => menus
+            [31] => menus
+            [32] => menus
+            [33] => menus
+            [34] => menus
+            [35] => menus
+            [36] => menus
+            [37] => menus
+            [38] => menus
+            [39] => menus
+            [40] => menus
+            [41] => menus
+            [42] => menus
+            [43] => menus
+            [44] => menus
+            [45] => menus
+            [46] => news
+            [47] => news_category
+            [48] => userclass_classes
+            [49] => userclass_classes
+            [50] => userclass_classes
+            [51] => userclass_classes
+            [52] => userclass_classes
+            [53] => userclass_classes
+            [54] => userclass_classes
+            [55] => userclass_classes
+            [56] => userclass_classes
+            [57] => userclass_classes
+            [58] => userclass_classes
+            [59] => userclass_classes
+            [60] => userclass_classes
+            [61] => userclass_classes
+        )
+
+)
+
+1505675638, 17-09-17 19:13:58  Attempting to write Theme Prefs/Tables (install.xml)
+1505675638, 17-09-17 19:13:58  Array
+(
+    [success] => Array
+        (
+            [0] => generic
+            [1] => core_media
+            [2] => core_media
+            [3] => core_media
+            [4] => core_media
+            [5] => core_media
+            [6] => core_media
+            [7] => core_media
+            [8] => core_media
+            [9] => core_media
+            [10] => core_media_cat
+            [11] => core_media_cat
+            [12] => core_media_cat
+            [13] => core_media_cat
+            [14] => core_media_cat
+            [15] => core_media_cat
+            [16] => core_media_cat
+            [17] => core_media_cat
+            [18] => core_media_cat
+            [19] => core_media_cat
+            [20] => core_media_cat
+            [21] => core_media_cat
+            [22] => core_media_cat
+            [23] => core_media_cat
+            [24] => links
+            [25] => links
+            [26] => links
+            [27] => links
+            [28] => links
+            [29] => links
+            [30] => links
+            [31] => links
+            [32] => links
+            [33] => links
+            [34] => links
+            [35] => links
+            [36] => menus
+            [37] => menus
+            [38] => menus
+            [39] => menus
+            [40] => menus
+            [41] => menus
+            [42] => menus
+            [43] => menus
+            [44] => menus
+            [45] => menus
+            [46] => menus
+            [47] => menus
+            [48] => menus
+            [49] => menus
+            [50] => menus
+            [51] => menus
+            [52] => menus
+            [53] => menus
+            [54] => menus
+            [55] => menus
+            [56] => menus
+            [57] => menus
+            [58] => menus
+            [59] => menus
+            [60] => menus
+            [61] => menus
+            [62] => menus
+            [63] => menus
+            [64] => menus
+            [65] => menus
+            [66] => menus
+            [67] => menus
+            [68] => menus
+            [69] => menus
+            [70] => menus
+            [71] => menus
+            [72] => menus
+            [73] => menus
+            [74] => menus
+            [75] => menus
+            [76] => menus
+            [77] => menus
+            [78] => menus
+            [79] => menus
+            [80] => menus
+            [81] => menus
+            [82] => menus
+            [83] => menus
+            [84] => menus
+            [85] => menus
+            [86] => menus
+            [87] => menus
+            [88] => menus
+            [89] => menus
+            [90] => menus
+            [91] => menus
+            [92] => menus
+            [93] => menus
+            [94] => menus
+            [95] => menus
+            [96] => menus
+            [97] => menus
+            [98] => menus
+            [99] => menus
+            [100] => menus
+            [101] => menus
+            [102] => menus
+            [103] => menus
+            [104] => news
+            [105] => news
+            [106] => news
+            [107] => page
+            [108] => page
+            [109] => page
+            [110] => page
+            [111] => page
+            [112] => page
+            [113] => page
+            [114] => page
+            [115] => page
+            [116] => page
+            [117] => page
+            [118] => page
+            [119] => page
+            [120] => page
+            [121] => page
+            [122] => page
+            [123] => page
+            [124] => page_chapters
+            [125] => page_chapters
+        )
+
+)
+
+1505675639, 17-09-17 19:13:59  Plugins table updated
+1505675639, 17-09-17 19:13:59  Theme-related plugin installed: gallery
+1505675639, 17-09-17 19:13:59  Theme-related plugin installed: rss_menu
+1505675639, 17-09-17 19:13:59  Theme-related plugin installed: social
+1505675639, 17-09-17 19:13:59  Addon prefs saved
+1505675640, 17-09-17 19:14:00  Core URL config set to default state
+1505675640, 17-09-17 19:14:00  Core prefs set to install choices
+1505675640, 17-09-17 19:14:00  Admin user created
+1505675640, 17-09-17 19:14:00  Stage 8 completed
